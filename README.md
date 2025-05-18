@@ -97,12 +97,15 @@ DataAnalytics-Assessment/
 
 2. Requirements:
 - MySQL-compatible database
-- Tables: 
-      * users_customuser,savings_savingsaccount, plans_plan, withdrawals_withdrawal
+- Tables:
+   1. users_customuser
+   2. savings_savingsaccount
+   3. plans_plan
+   4. withdrawals_withdrawal
 
 3. How to Run
 
-1. Load the assessment tables (`users_customuser`, `savings_savingsaccount`, `plans_plan`, and `withdrawals_withdrawal`) into a MySQL-compatible database.
+1. Load the assessment tables (`users_customuser`, `savings_savingsaccount`, `plans_plan`, and `withdrawals_withdrawal`) into a MySQL-compatible database. (having the database set up)
 2. Open each SQL file (`Assessment_Q1.sql` to `Assessment_Q4.sql`) in a MySQL client or editor.
 3. Run them individually to view the results.
 4. Ensure `transaction_status = 'success'` and `confirmed_amount > 0` filters are active for accurate results.
